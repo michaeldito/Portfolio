@@ -38,11 +38,11 @@ filter_default = 0
   tag = ".Python"
 
 [[filter]]
-  name = "Node"
+  name = "Node.js"
   tag = ".Node-js"
 
 [[filter]]
-  name = "AWS"
+  name = "Alexa"
   tag = ".AWS"
 
 [[filter]]

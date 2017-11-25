@@ -24,14 +24,15 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "project-imgs/maze-wide.png"
-caption = "My caption :smile:"
 
 +++
 
-A project from our Programming II course at Sonoma State, the maze game. The goal of the game is quite simple, move the player through the maze to reach the goal! Their were quite a few challenges in implementing this project. How should the maze be generated? The solution was a recursive division algorithm, the first difficult one I encountered in my programming career. Looking back, it is quite simple! First we divide the maze into four squares, then we pop open a door on three of the inner walls. Then we repeat this process, recursively, for each of the four squares. Once the squares reduce to a small enough size, we have reached our base case.
+A project from our Programming II course at Sonoma State, the maze game. The goal of the game is quite simple, move the player through the maze to reach the goal! Their were quite a few challenges in implementing this project. How should the maze be generated? The solution I chose was a recursive division algorithm, one of the first recursive functions I ever wrote in my programming career. Looking back, it is quite simple. First we divide the maze into four squares, then we pop open a door on three of the inner walls. Then we repeat this process, recursively, for each of the four squares. Once the squares reduce to a small enough size we have reached our base case, and that section is complete.
 
 A few lessons learned from this project:
 - How to create a dynamic 2D array
-- Stay within your array bounds (or risk the dreaded SEGFAULT)
+- Stay within your array bounds
 - How to design a game loop
 - Designing algorithms with pseudocode
+
+Next Up: [Maze GUI]({{< relref "maze-gui.md" >}})

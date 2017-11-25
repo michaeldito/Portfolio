@@ -14,14 +14,34 @@ weight = 20
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+## Sonoma State University
+#### Bachelor of Science in Computer Science  
+Expected Graduation: December 2018  
+Sonoma GPA: 3.8
 
-I am a teaching instructor for the following courses at University X:
+**Courses Complete:**  
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- Programming I and II
+- Introduction to Unix
+- Discrete Structures for Computer Science
+- Intermediate Applied Statistics with SPSS
+- Differential and Integral Calculus I & II
+- Introduction to Computer Organization
+- Database Management Systems Design
+- Data Structures
+
+**Courses In-Progress:**  
+
+- Computer Architecture
+- Cloud Systems Architecture
+- Software Design and Development
+- Analysis of Algorithms
+
+**Future Courses:**  
+
+- Programming Languages
+- Theory of Computation
+- Object Oriented Programming
+- Operating Systems
+- Advanced Software Design and Development
+- Team Programming

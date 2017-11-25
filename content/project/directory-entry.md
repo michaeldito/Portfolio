@@ -6,14 +6,14 @@ date = "2017-10-17"
 title = "Directory Entry"
 
 # Project summary to display on homepage.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary = "Building the internal representation of a directory hierarchy, a rooted tree data structure."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "project-imgs/directory.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Cplusplus"]
+tags = ["Cplusplus", "Data Structures"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -24,16 +24,11 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "project-imgs/directory-ex.png"
-caption = "My caption :smile:"
 
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+This project was the culmination of quite a few labs and projects. After expanding our recursive list parser, the task was to parse a JSON string and populate a Directory Entry with it's contents. This ADT is a rooted tree data structure composed of Directory Nodes. The nodes are either files or directories. Files are the leaves, and directories are recursive nodes that may contain files and/or more directories. Attributes of a Directory Entry were two Directory Nodes: rootDir and cwd. Operations of this ADT include some of the most commonly used Unix commands (ls, pwd, cd, find), their variations, and other operations commonly used in tree structures (depth, duplicate, hasSubstructure, areTheSame, move).
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+Depth-First-Search was used quite often in implementing the operations Directory Entry required. It was used in: cd, ls, duplicate, find, and move. Once the data structure was complete, I built a function that simulates a terminal environment. It builds a directory from a JSON file, and then allows the user to perform any of the operations previously mentioned.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Their was a lot to take away from this project. We built up our skills for weeks to be able to tackle this project. Mapping out the steps needed on paper helped as always. Taking the time to write some pseudo code and explore the project before diving into the terminal saved me a lot of debugging - and having to redesign the structure of my solution. The next time I undertake a big project, I'll know that I need to take small steps, plan things out, test each module, and then move on to the next task.
