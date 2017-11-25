@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2017-10-17"
+date = "2017-10-30"
 
 # Project title.
 title = "Automate Application Scaling"
