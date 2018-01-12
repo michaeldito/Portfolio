@@ -35,4 +35,6 @@ A few lessons learned from this project:
 - How to design a game loop
 - Designing algorithms with pseudocode
 
+Check it out [here](https://github.com/michaeldito/SSU-CS-215-Programming-II).
+
 Next Up: [Maze GUI]({{< relref "maze-gui.md" >}})

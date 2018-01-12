@@ -30,3 +30,5 @@ image = "project-imgs/rec-lists-2.png"
 This project, without a doubt, taught me how to think recursively. The project required a number of highly recursive functions to be written in C++. It also introduced the ADT Recursive List, which is defined recursively. Understanding recursive lists was essential to succeeding in the data structures course at Sonoma, as many of the labs and projects following this project included it.
 
 It is the main data structure used in the programming language Lisp. We were provided with a C++ Lisp interpreter, so we were writing functions that were very Lisp-like. It was a requirement that absolutely no looping constructs (while, do-while, and for) or variables were to be used... only recursion. Solutions were generated using very carefully thought out if and if-else statements, and calls to a handful of primitive functions that we were given.
+
+Check it out [here](https://github.com/michaeldito/SSU-CS-315-Data-Structures).

@@ -26,11 +26,5 @@ Data Structures
 ## Director (Summer 2017)
 **iD Tech Camps (Sonoma, San Anselmo, UC Berkeley)**
 
-- Create a fun, safe, and welcoming camp environment
-- Ensure high-quality instruction for all students
-- Monitor the safety and well-being of all students
-- Monitor logistics, timekeeping, and manage inventory
-- Manage and observe instructors, and provide them with opportunities for growth
-
 ## Financial Center Client Service Representative (Summer 2014 - Fall 2016)
 **Bank of America (Novato, CA and Mill Valley, CA)**

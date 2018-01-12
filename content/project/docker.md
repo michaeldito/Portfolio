@@ -3,17 +3,17 @@
 date = "2017-11-25"
 
 # Project title.
-title = "The Fast Fourier Transform"
+title = "Docker Mastery"
 
 # Project summary to display on homepage.
-summary = "The FFT algorithm, implemented in python."
+summary = "A Udemy course about Docker."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project-imgs/fft.png"
+image_preview = "project-imgs/docker.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Python"]
+tags = ["Docker", "Devops"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -27,6 +27,4 @@ image = "project-imgs/"
 
 +++
 
-The fast fourier transform, a divide and conquer O(nlogn) polynomial multiplication algorithm, written in python.
-
-Check it out [here](https://github.com/michaeldito/SSU-CS-415-Algorithm-Analysis).
+I'm also working through a course about Docker on Udemy. I wrote my first Dockerfile this past semester in my Cloud Architecture course.

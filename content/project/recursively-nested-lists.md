@@ -29,4 +29,6 @@ image = "project-imgs/rec-nested-2.png"
 
 Continuing to build our parsing skills and hone our ability to think recursively, this assignment provided practice with recursively nested lists. We continued to use a lexical analyzer to parse the list into tokens. Upon inspection of these tokens, we could ask questions to determine whether or not we were in fact looking at a recursive list or not. Carefully developed conditional checks and return statements were all that was needed. In the end, we were getting even closer to be able to parse a JSON object.
 
+Check it out [here](https://github.com/michaeldito/SSU-CS-315-Data-Structures).
+
 Next up: [Tokenizing a JSON string]({{< relref "tokenize-json.md" >}})

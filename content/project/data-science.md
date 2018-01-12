@@ -3,17 +3,17 @@
 date = "2017-11-25"
 
 # Project title.
-title = "The Fast Fourier Transform"
+title = "Python for Data Science and Machine Learning"
 
 # Project summary to display on homepage.
-summary = "The FFT algorithm, implemented in python."
+summary = "A Udemy course on Data Science."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project-imgs/fft.png"
+image_preview = "project-imgs/data.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Python"]
+tags = ["Python", "Data Science"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -27,6 +27,14 @@ image = "project-imgs/"
 
 +++
 
-The fast fourier transform, a divide and conquer O(nlogn) polynomial multiplication algorithm, written in python.
+I've started a Data Science course on Udemy to learn some powerful Python libraries such as:
+- NumPy   
+- Pandas   
+- Matplotlib   
+- Seaborn   
+- Plotly   
+- Cufflinks   
 
-Check it out [here](https://github.com/michaeldito/SSU-CS-415-Algorithm-Analysis).
+There is also a section on Machine Learning, Linear Regression, Logistic Regression, Big Data, 
+Spark, and so much more. I'm hoping to finish it very soon.
+

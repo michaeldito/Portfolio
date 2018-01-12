@@ -28,3 +28,5 @@ image = "project-imgs/algs-with-nums-wide.png"
 +++
 
 This project was split into two parts for our Analysis of Algorithms course at Sonoma. The goal of the project was to gain an understanding of bit-level operation run times for various arithmetic algorithms. To do this, we used binary arrays in Python. These binary arrays were just lists with elements being either 0 or 1. During implementation, it was import to remember which ends of the list were the most significant and least significant bits (big endian vs little endian). I learned that passing variables as parameters in Python is a bit different than in C++ (by reference/by value). After part 1, we expanded this project so that we could perform RSA Encryption/Decryption.
+
+Check it out [here](https://github.com/michaeldito/SSU-CS-415-Algorithm-Analysis).

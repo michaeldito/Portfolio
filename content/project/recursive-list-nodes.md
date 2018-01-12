@@ -30,4 +30,6 @@ Before beginning this project, it was clear that in order to build complex softw
 
 Once we were able to tokenize a JSON string with a lexical analyzer, we could begin doing much more exciting work. All along, we were building the skills necessary to build the internal representation of a directory hierarchy, which we later represent as a rooted tree data structure. In this phase of the project, the goal was to use the tokens our lexical analyzer would give us to build List Nodes - which will later hold information about files or directories.
 
+Check it out [here](https://github.com/michaeldito/SSU-CS-315-Data-Structures).
+
 Next Up: [Directory Entry]({{< relref "directory-entry.md" >}})

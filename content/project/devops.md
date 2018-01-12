@@ -3,17 +3,17 @@
 date = "2017-11-25"
 
 # Project title.
-title = "The Fast Fourier Transform"
+title = "Learn Devops: Continously Deliver Better Software"
 
 # Project summary to display on homepage.
-summary = "The FFT algorithm, implemented in python."
+summary = "A Devops course from Udemy."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "project-imgs/fft.png"
+image_preview = "project-imgs/devops.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Python"]
+tags = ["Devops"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -27,6 +27,12 @@ image = "project-imgs/"
 
 +++
 
-The fast fourier transform, a divide and conquer O(nlogn) polynomial multiplication algorithm, written in python.
+I've begun a Devops course on Udemy where they've introduced tools such as:
+- Vagrant   
+- Ansible   
+- Chef   
+- Jenkins   
+- Docker   
+- Kubernetes
 
-Check it out [here](https://github.com/michaeldito/SSU-CS-415-Algorithm-Analysis).
+My interest in this subject grew as I began automating things in my Cloud Architecture class.

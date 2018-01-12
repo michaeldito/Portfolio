@@ -32,3 +32,5 @@ This project was the culmination of quite a few labs and projects. After expandi
 Depth-First-Search was used quite often in implementing the operations Directory Entry required. It was used in: cd, ls, duplicate, find, and move. Once the data structure was complete, I built a function that simulates a terminal environment. It builds a directory from a JSON file, and then allows the user to perform any of the operations previously mentioned.
 
 Their was a lot to take away from this project. We built up our skills for weeks to be able to tackle this project. Mapping out the steps needed on paper helped as always. Taking the time to write some pseudo code and explore the project before diving into the terminal saved me a lot of debugging - and having to redesign the structure of my solution. The next time I undertake a big project, I'll know that I need to take small steps, plan things out, test each module, and then move on to the next task.
+
+Check it out [here](https://github.com/michaeldito/SSU-CS-315-Data-Structures).

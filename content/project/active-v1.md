@@ -31,4 +31,6 @@ This is a personal project that really helped me solidify the fundamentals of pr
 
 After getting exposed to Node.js, and taking Database Management Systems Design at Sonoma, I decided to recreate this project as a web application.
 
+Check it out [here](https://github.com/michaeldito/Active-v1).
+
 Next Up: [Active-v2]({{< relref "active-v2.md" >}})

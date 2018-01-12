@@ -29,19 +29,19 @@ Sonoma GPA: 3.8
 - Introduction to Computer Organization
 - Database Management Systems Design
 - Data Structures
-
-**Courses In-Progress:**  
-
 - Computer Architecture
 - Cloud Systems Architecture
 - Software Design and Development
 - Analysis of Algorithms
 
-**Future Courses:**  
+**Courses In-Progress:**  
 
 - Programming Languages
-- Theory of Computation
-- Object Oriented Programming
 - Operating Systems
+- Object Oriented Programming
+
+**Future Courses:**  
+
+- Theory of Computation
 - Advanced Software Design and Development
-- Team Programming
+- CS Elective

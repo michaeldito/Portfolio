@@ -36,3 +36,5 @@ The trick was to use a few data structures so that the entire game is executed i
 Once the three main data structures were defined, the biggest obstacle became figuring out the algorithm to move the worm around. It was challenging because each time one data structure was modified, you had to make sure you modified the other data structures accordingly.
 
 In the end, this project turned out to be one of my favorites. The idea behind the game is so simple, but to implement it extremely efficiently it required careful use of a few data structures.
+
+Check it out [here](https://github.com/michaeldito/SSU-CS-315-Data-Structures).
