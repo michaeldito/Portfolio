@@ -23,11 +23,12 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "project-imgs/"
+image = ""
 
 +++
 
-I've started a Data Science course on Udemy to learn some powerful Python libraries such as:
+I've started a Data Science course on Udemy to learn some powerful Python libraries such as:  
+ 
 - NumPy   
 - Pandas   
 - Matplotlib   

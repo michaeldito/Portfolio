@@ -2,7 +2,7 @@
 # Hero widget.
 
 date = 2017-10-15
-draft = false
+draft = true
 
 title = "Computer Scientist"
 widget = "hero"

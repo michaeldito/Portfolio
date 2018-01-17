@@ -23,11 +23,12 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "project-imgs/"
+image = ""
 
 +++
 
 I've begun a Devops course on Udemy where they've introduced tools such as:
+
 - Vagrant   
 - Ansible   
 - Chef   
